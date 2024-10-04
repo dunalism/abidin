@@ -1,0 +1,563 @@
+{
+  "logged": [],
+  "users": [
+    {
+      "fullname": "admin",
+      "email": "admin@mail.com",
+      "password": "admin",
+      "phoneNumber": "1234567890",
+      "role": "admin",
+      "id": "1"
+    },
+    {
+      "fullname": "Tanboy Speed",
+      "email": "john@example.com",
+      "password": "asdf",
+      "phoneNumber": "1234567890",
+      "role": "user",
+      "id": "9f25"
+    },
+    {
+      "fullname": "Tanboy Basudara",
+      "email": "kuku@mail.com",
+      "password": "asdf",
+      "phoneNumber": "1234567890",
+      "role": "user",
+      "id": "d397"
+    },
+    {
+      "id": "1c49",
+      "fullname": "Ujang betmen",
+      "email": "ini@ai.com",
+      "password": "asdf",
+      "phoneNumber": "0939393919999",
+      "role": "user"
+    },
+    {
+      "id": "1025",
+      "fullname": "Aysow Kun",
+      "email": "kk@mail.com",
+      "password": "Asdf1...",
+      "phoneNumber": "0859390453",
+      "role": "user"
+    }
+  ],
+  "auctions": [
+    {
+      "id": "A1B2",
+      "title": "Samsung Galaxy S21",
+      "description": "Smartphone flagship dengan spesifikasi tinggi dan fitur-fitur terbaru.",
+      "startingPrice": 4800000,
+      "startDate": "2000-09-20",
+      "endDate": "2000-09-23",
+      "condition": "Like New",
+      "category": "Electronics",
+      "status": "Closed Auction",
+      "userId": "d397",
+      "image": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s21-5g-0.jpg",
+      "seller": "Tanboy Basudara"
+    },
+    {
+      "id": "C3D4",
+      "title": "Rolex Submariner Watch",
+      "description": "Luxury watch, waterproof, and with a classic design. Simple and Elegant.",
+      "startingPrice": 1150000,
+      "startDate": "2000-09-20",
+      "endDate": "2000-09-23",
+      "condition": "New",
+      "category": "Jewelry & Watches",
+      "status": "Closed Auction",
+      "userId": "9f25",
+      "image": "https://media.rolex.com/image/upload/q_auto:eco/f_auto/t_v7-majesty/c_limit,w_800/v1/catalogue/2024/upright-c/m124060-0001",
+      "seller": "Tanboy Speed"
+    },
+    {
+      "id": "E5F6",
+      "title": "Gucci Marmont Bag",
+      "description": "Genuine leather bag from Gucci, suitable for formal and casual events.",
+      "startingPrice": 1200000,
+      "startDate": "2024-10-01",
+      "endDate": "2024-10-16",
+      "condition": "Used",
+      "category": "Fashion & Accessories",
+      "status": "active",
+      "userId": "d397",
+      "image": "https://media.gucci.com/style/DarkGray_Center_0_0_490x490/1659974403/443496_DTDIT_1000_001_066_0000_Light-GG-Marmont-medium-shoulder-bag.jpg",
+      "seller": "Tanboy Basudara"
+    },
+    {
+      "id": "G7H8",
+      "title": "House in South Jakarta",
+      "description": "Luxury house with 3 bedrooms, 2 bathrooms, and a spacious yard.",
+      "startingPrice": 23000000,
+      "startDate": "2024-10-01",
+      "endDate": "2024-10-12",
+      "condition": "Used",
+      "category": "Real Estate",
+      "status": "active",
+      "userId": "9f25",
+      "image": "https://cdn.mos.cms.futurecdn.net/kRh5JawGZEjhMYp3BE8hXY-1024-80.jpg.webp",
+      "seller": "Tanboy Speed"
+    },
+    {
+      "id": "I9J0",
+      "title": "Minimalist Sofaaa",
+      "description": "Three-seater sofa made of high-quality fabric, perfect for a family room.",
+      "startingPrice": 250000,
+      "startDate": "2024-10-05",
+      "endDate": "2024-10-12",
+      "condition": "New",
+      "category": "Home & Furniture",
+      "status": "active",
+      "userId": "d397",
+      "image": "https://images.pexels.com/photos/19131440/pexels-photo-19131440/free-photo-of-porcelain-vase-full-of-roses-on-a-coffee-table-next-to-a-white-couch.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "seller": "Tanboy Basudara"
+    },
+    {
+      "id": "K1L2",
+      "title": "Honda Civic 2019",
+      "description": "Sedan car with high performance and efficient fuel consumption.",
+      "startingPrice": 25000001,
+      "startDate": "2024-10-06",
+      "endDate": "2024-10-13",
+      "condition": "Used",
+      "category": "Automotive",
+      "status": "active",
+      "userId": "9f25",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/96-98_Honda_Civic_LX_sedan.jpg/1024px-96-98_Honda_Civic_LX_sedan.jpg",
+      "seller": "Tanboy Speed"
+    },
+    {
+      "id": "M3N4",
+      "title": "Apple MacBook Pro 16 Inch",
+      "description": "High-performance laptop with Retina display and the latest processor.",
+      "startingPrice": 2000000,
+      "startDate": "2024-10-07",
+      "endDate": "2024-10-14",
+      "condition": "Like New",
+      "category": "Electronics",
+      "status": "active",
+      "userId": "d397",
+      "image": "https://www.apple.com/v/macbook-pro/ak/images/overview/welcome/welcome_hero_endframe__66ipqm3o5gyu_small_2x.jpg",
+      "seller": "Tanboy Basudara"
+    },
+    {
+      "id": "O5P6",
+      "title": "Solitaire Diamond Ring",
+      "description": "Ring with a large diamond, ideal for engagement or wedding.",
+      "startingPrice": 500000,
+      "startDate": "2024-10-08",
+      "endDate": "2024-10-17",
+      "condition": "New",
+      "category": "Jewelry & Watches",
+      "status": "active",
+      "userId": "9f25",
+      "image": "https://masinadiamonds.com/cdn/shop/articles/IMG_8139_4.jpg?v=1706735366",
+      "seller": "Tanboy Speed"
+    },
+    {
+      "id": "Q7R8",
+      "title": "Genuine Leather Jacket",
+      "description": "Premium leather jacket, perfect for winter or riding.",
+      "startingPrice": 20000,
+      "startDate": "2024-10-09",
+      "endDate": "2024-10-16",
+      "condition": "Used",
+      "category": "Fashion & Accessories",
+      "status": "active",
+      "userId": "d397",
+      "image": "https://down-id.img.susercontent.com/file/id-11134207-7qukw-lfp7gj5oddoa1c",
+      "seller": "Tanboy Basudara"
+    },
+    {
+      "id": "S9T0",
+      "title": "Teak Wood Bookshelf",
+      "description": "Bookshelf made of high-quality teak wood, durable and elegant.",
+      "startingPrice": 15000,
+      "startDate": "2024-10-10",
+      "endDate": "2024-10-18",
+      "condition": "New",
+      "category": "Home & Furniture",
+      "status": "active",
+      "userId": "9f25",
+      "image": "https://i.etsystatic.com/45983929/r/il/7c13f0/6255438928/il_1588xN.6255438928_bs9y.jpg",
+      "seller": "Tanboy Speed"
+    },
+    {
+      "id": "U1V2",
+      "title": "Mountain Bike Trek X-Caliber",
+      "description": "High-quality mountain bike suitable for both beginners and experienced riders.",
+      "startingPrice": 12456600,
+      "startDate": "2024-10-11",
+      "endDate": "2024-10-19",
+      "condition": "Used",
+      "category": "Sports & Hobbies",
+      "status": "active",
+      "userId": "d397",
+      "image": "https://c02.purpledshub.com/uploads/sites/39/2019/03/1417500372183-jst28iwntmd8-1000-100-20e3baa.jpg?w=1029&webp=1",
+      "seller": "Tanboy Basudara"
+    },
+    {
+      "id": "W3X4",
+      "title": "Electric Guitar Fender Stratocaster",
+      "description": "Iconic electric guitar, perfect for rock, blues, and jazz music.",
+      "startingPrice": 80000,
+      "startDate": "2024-10-12",
+      "endDate": "2024-10-20",
+      "condition": "Like New",
+      "category": "Sports & Hobbies",
+      "status": "active",
+      "userId": "9f25",
+      "image": "https://cdn.britannica.com/92/242392-050-304C65B3/Fendor-Stratocaster-electric-guitar-Jeff-Beck-series.jpg",
+      "seller": "Tanboy Speed"
+    },
+    {
+      "id": "Y5Z6",
+      "title": "Camping Tent Coleman Sundome",
+      "description": "Spacious tent for 4 people, ideal for family camping trips.",
+      "startingPrice": 2000000,
+      "startDate": "2024-10-13",
+      "endDate": "2024-10-21",
+      "condition": "New",
+      "category": "Sports & Hobbies",
+      "status": "active",
+      "userId": "d397",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJfa4Y1r9A_L5ErUMBalX5IDl8NVpUjeP6BA&s",
+      "seller": "Tanboy Basudara"
+    },
+    {
+      "id": "A7B8",
+      "title": "Antique Gramophone",
+      "description": "Vintage gramophone from the early 20th century, fully functional.",
+      "startingPrice": 15000,
+      "startDate": "2024-10-14",
+      "endDate": "2024-10-22",
+      "condition": "Used",
+      "category": "Others",
+      "status": "active",
+      "userId": "9f25",
+      "image": "https://media.istockphoto.com/id/1485362698/id/foto/emas-vintage-dan-isolat-gramofon-klasik-transparansi-png.jpg?s=612x612&w=0&k=20&c=4t43h3yMV90RsgpaxPEDZKM_HAEV2UatRtOUCI7ua5k=",
+      "seller": "Tanboy Speed"
+    },
+    {
+      "id": "C9D0",
+      "title": "RC Drone DJI Phantom 4",
+      "description": "High-end drone with 4K camera, suitable for aerial photography.",
+      "startingPrice": 12200000,
+      "startDate": "2024-10-15",
+      "endDate": "2024-10-23",
+      "condition": "Like New",
+      "category": "Others",
+      "status": "active",
+      "userId": "d397",
+      "image": "https://www1.djicdn.com/dps/40e881330a7e92a0bc3f437616ccdc5b.webp"
+    },
+    {
+      "id": "39SK",
+      "title": "Vintage Porcelain Vase",
+      "description": "Antique porcelain vase from the 19th century, featuring intricate hand-painted floral designs.",
+      "startingPrice": 40000,
+      "startDate": "2024-10-11",
+      "endDate": "2024-10-19",
+      "condition": "Used",
+      "category": "Art & Antiques",
+      "status": "active",
+      "userId": "d397",
+      "image": "https://i.etsystatic.com/54789443/r/il/f284f0/6301095848/il_1588xN.6301095848_pcb4.jpg",
+      "seller": "Tanboy Basudara"
+    },
+    {
+      "id": "PL3M",
+      "title": "Star Wars Action Figure Collection",
+      "description": "Complete set of limited edition Star Wars action figures, including rare characters.",
+      "startingPrice": 5000000,
+      "startDate": "2024-10-12",
+      "endDate": "2024-10-20",
+      "condition": "Like New",
+      "category": "Collectibles",
+      "status": "active",
+      "userId": "9f25",
+      "image": "https://m.media-amazon.com/images/I/710gR4o6ETL.jpg",
+      "seller": "Tanboy Speed"
+    },
+    {
+      "id": "UB2T",
+      "title": "Original Oil Painting by Local Artist",
+      "description": "Original oil painting on canvas depicting a serene landscape, signed by the artist.",
+      "startingPrice": 10000000,
+      "startDate": "2024-10-13",
+      "endDate": "2024-10-21",
+      "condition": "New",
+      "category": "Art & Antiques",
+      "status": "active",
+      "userId": "d397",
+      "image": "https://d3rf6j5nx5r04a.cloudfront.net/-ShkwCJiNphwK8eeVSgaHwlQoCo=/780x0/product/3/1/08366f6743a44e8695aec2f4f636a687_opt.jpg"
+    },
+    {
+      "id": "POS0",
+      "title": "Antique Pocket Watch",
+      "description": "19th-century pocket watch made of brass, fully functional with intricate engravings.",
+      "startingPrice": 8122000,
+      "startDate": "2024-10-14",
+      "endDate": "2024-10-22",
+      "condition": "Used",
+      "category": "Collectibles",
+      "status": "active",
+      "userId": "9f25",
+      "image": "https://media.gettyimages.com/id/1180869005/photo/two-old-pocket-watches-inside-a-box-still-life.jpg?s=612x612&w=0&k=20&c=EET6iEmyurLVs_wLc0OrqgjxcZ_9Ljk9cblRutoqKOU=",
+      "seller": "Tanboy Speed"
+    },
+    {
+      "id": "KLF3",
+      "title": "Handcrafted Wooden Sculpture",
+      "description": "Unique handcrafted wooden sculpture of an abstract figure, made from high-quality mahogany.",
+      "startingPrice": 4810000,
+      "startDate": "2000-09-20",
+      "endDate": "2000-09-23",
+      "condition": "New",
+      "category": "Art & Antiques",
+      "status": "Closed Auction",
+      "userId": "d397",
+      "image": "https://d3rf6j5nx5r04a.cloudfront.net/ZK7OBanquz9Q1gdVLAC4cXjPNJs=/780x0/product/0/6/d4643734fe0e4046a21b0e0242e31e94_opt.jpg",
+      "seller": "Tanboy Basudara"
+    }
+  ],
+  "watchlist": [
+    {
+      "id": "KLF3",
+      "title": "Handcrafted Wooden Sculpture",
+      "description": "Unique handcrafted wooden sculpture of an abstract figure, made from high-quality mahogany.",
+      "startingPrice": 4810000,
+      "startDate": "2000-09-20",
+      "endDate": "2000-09-23",
+      "condition": "New",
+      "category": "Art & Antiques",
+      "status": "Closed Auction",
+      "userId": "1025",
+      "image": "https://d3rf6j5nx5r04a.cloudfront.net/ZK7OBanquz9Q1gdVLAC4cXjPNJs=/780x0/product/0/6/d4643734fe0e4046a21b0e0242e31e94_opt.jpg"
+    },
+    {
+      "id": "39SK",
+      "title": "Vintage Porcelain Vase",
+      "description": "Antique porcelain vase from the 19th century, featuring intricate hand-painted floral designs.",
+      "startingPrice": 40000,
+      "startDate": "2024-10-11",
+      "endDate": "2024-10-19",
+      "condition": "Used",
+      "category": "Art & Antiques",
+      "status": "active",
+      "userId": "1025",
+      "image": "https://i.etsystatic.com/54789443/r/il/f284f0/6301095848/il_1588xN.6301095848_pcb4.jpg"
+    },
+    {
+      "id": "I9J0",
+      "title": "Minimalist Sofaaa",
+      "description": "Three-seater sofa made of high-quality fabric, perfect for a family room.",
+      "startingPrice": 250000,
+      "startDate": "2024-10-05",
+      "endDate": "2024-10-12",
+      "condition": "New",
+      "category": "Home & Furniture",
+      "status": "active",
+      "userId": "1025",
+      "image": "https://images.pexels.com/photos/19131440/pexels-photo-19131440/free-photo-of-porcelain-vase-full-of-roses-on-a-coffee-table-next-to-a-white-couch.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    },
+    {
+      "id": "C3D4",
+      "title": "Rolex Submariner Watch",
+      "description": "Luxury watch, waterproof, and with a classic design. Simple and Elegant.",
+      "startingPrice": 1150000,
+      "startDate": "2000-09-20",
+      "endDate": "2000-09-23",
+      "condition": "New",
+      "category": "Jewelry & Watches",
+      "status": "Closed Auction",
+      "userId": "1025",
+      "image": "https://media.rolex.com/image/upload/q_auto:eco/f_auto/t_v7-majesty/c_limit,w_800/v1/catalogue/2024/upright-c/m124060-0001"
+    },
+    {
+      "id": "G7H8",
+      "title": "House in South Jakarta",
+      "description": "Luxury house with 3 bedrooms, 2 bathrooms, and a spacious yard.",
+      "startingPrice": 23000000,
+      "startDate": "2024-10-01",
+      "endDate": "2024-10-12",
+      "condition": "Used",
+      "category": "Real Estate",
+      "status": "active",
+      "userId": "1025",
+      "image": "https://cdn.mos.cms.futurecdn.net/kRh5JawGZEjhMYp3BE8hXY-1024-80.jpg.webp"
+    },
+    {
+      "id": "PL3M",
+      "title": "Star Wars Action Figure Collection",
+      "description": "Complete set of limited edition Star Wars action figures, including rare characters.",
+      "startingPrice": 5000000,
+      "startDate": "2024-10-12",
+      "endDate": "2024-10-20",
+      "condition": "Like New",
+      "category": "Collectibles",
+      "status": "active",
+      "userId": "1025",
+      "image": "https://m.media-amazon.com/images/I/710gR4o6ETL.jpg"
+    }
+  ],
+  "bids": [
+    {
+      "id": "A1B2",
+      "bidAmount": 4600000,
+      "title": "Samsung Galaxy S21",
+      "userId": "9f25",
+      "bidDate": "2024-10-01"
+    },
+    {
+      "id": "A1B2",
+      "bidAmount": 4700000,
+      "title": "Samsung Galaxy S21",
+      "userId": "1c49",
+      "bidDate": "2024-10-01"
+    },
+    {
+      "id": "A1B2",
+      "bidAmount": 4800000,
+      "title": "Samsung Galaxy S21",
+      "userId": "1c49",
+      "bidDate": "2024-10-01"
+    },
+    {
+      "id": "C3D4",
+      "bidAmount": 141000,
+      "title": "Rolex Submariner Watch",
+      "userId": "1c49",
+      "bidDate": "2024-10-01"
+    },
+    {
+      "id": "C3D4",
+      "bidAmount": 142000,
+      "title": "Rolex Submariner Watch",
+      "userId": "1025",
+      "bidDate": "2024-10-01"
+    },
+    {
+      "id": "KLF3",
+      "bidAmount": 4600000,
+      "title": "Handcrafted Wooden Sculpture",
+      "userId": "1025",
+      "bidDate": "2024-10-02"
+    },
+    {
+      "id": "39SK",
+      "bidAmount": 40000,
+      "title": "Vintage Porcelain Vase",
+      "userId": "1025",
+      "bidDate": "2024-10-02"
+    },
+    {
+      "id": "C3D4",
+      "bidAmount": 1150000,
+      "title": "Rolex Submariner Watch",
+      "userId": "1025",
+      "bidDate": "2024-10-02"
+    },
+    {
+      "id": "KLF3",
+      "bidAmount": 4700000,
+      "title": "Handcrafted Wooden Sculpture",
+      "userId": "1025",
+      "bidDate": "2024-10-02"
+    },
+    {
+      "id": "KLF3",
+      "bidAmount": 4800000,
+      "title": "Handcrafted Wooden Sculpture",
+      "userId": "1025",
+      "bidDate": "2024-10-02"
+    },
+    {
+      "id": "KLF3",
+      "bidAmount": 4810000,
+      "title": "Handcrafted Wooden Sculpture",
+      "userId": "1c49",
+      "bidDate": "2024-10-02"
+    },
+    {
+      "id": "POS0",
+      "bidAmount": 8100000,
+      "title": "Antique Pocket Watch",
+      "userId": "1025",
+      "bidDate": "2024-10-02"
+    },
+    {
+      "id": "POS0",
+      "bidAmount": 8110000,
+      "title": "Antique Pocket Watch",
+      "userId": "1025",
+      "bidDate": "2024-10-02"
+    },
+    {
+      "id": "POS0",
+      "bidAmount": 8120000,
+      "title": "Antique Pocket Watch",
+      "userId": "1025",
+      "bidDate": "2024-10-02"
+    },
+    {
+      "id": "POS0",
+      "bidAmount": 8122000,
+      "title": "Antique Pocket Watch",
+      "userId": "1025",
+      "bidDate": "2024-10-02"
+    },
+    {
+      "id": "C9D0",
+      "bidAmount": 12100000,
+      "title": "RC Drone DJI Phantom 4",
+      "userId": "1025",
+      "bidDate": "2024-10-02"
+    },
+    {
+      "id": "U1V2",
+      "bidAmount": 1245668797979,
+      "title": "Mountain Bike Trek X-Caliber",
+      "userId": "5a40",
+      "bidDate": "2024-10-02"
+    },
+    {
+      "id": "C9D0",
+      "bidAmount": 100000000,
+      "title": "RC Drone DJI Phantom 4",
+      "userId": "5a40",
+      "bidDate": "2024-10-02"
+    },
+    {
+      "id": "C9D0",
+      "bidAmount": 12200000,
+      "title": "RC Drone DJI Phantom 4",
+      "userId": "1025",
+      "bidDate": "2024-10-03"
+    }
+  ],
+  "bills": [
+    {
+      "id": "1c49",
+      "bidAmount": 4800000,
+      "title": "Samsung Galaxy S21",
+      "auctId": "A1B2",
+      "bidDate": "2024-10-01"
+    },
+    {
+      "id": "1025",
+      "bidAmount": 1150000,
+      "title": "Rolex Submariner Watch",
+      "auctId": "C3D4",
+      "bidDate": "2024-10-02"
+    },
+    {
+      "id": "1c49",
+      "bidAmount": 4810000,
+      "title": "Handcrafted Wooden Sculpture",
+      "auctId": "KLF3",
+      "bidDate": "2024-10-02"
+    }
+  ]
+}
