@@ -75,15 +75,15 @@
       "id": "E5F6",
       "title": "Gucci Marmont Bag",
       "description": "Genuine leather bag from Gucci, suitable for formal and casual events.",
-      "startingPrice": 1200000,
+      "startingPrice": 1300000,
       "startDate": "2024-10-01",
       "endDate": "2024-10-16",
       "condition": "Used",
       "category": "Fashion & Accessories",
       "status": "active",
       "userId": "d397",
-      "image": "https://media.gucci.com/style/DarkGray_Center_0_0_490x490/1659974403/443496_DTDIT_1000_001_066_0000_Light-GG-Marmont-medium-shoulder-bag.jpg",
-      "seller": "Tanboy Basudara"
+      "seller": "Tanboy Basudara",
+      "image": "https://media.gucci.com/style/DarkGray_Center_0_0_490x490/1659974403/443496_DTDIT_1000_001_066_0000_Light-GG-Marmont-medium-shoulder-bag.jpg"
     },
     {
       "id": "G7H8",
@@ -250,6 +250,7 @@
       "category": "Others",
       "status": "active",
       "userId": "d397",
+      "seller": "Tanboy Basudara",
       "image": "https://www1.djicdn.com/dps/40e881330a7e92a0bc3f437616ccdc5b.webp"
     },
     {
@@ -291,21 +292,21 @@
       "category": "Art & Antiques",
       "status": "active",
       "userId": "d397",
+      "seller": "Tanboy Basudara",
       "image": "https://d3rf6j5nx5r04a.cloudfront.net/-ShkwCJiNphwK8eeVSgaHwlQoCo=/780x0/product/3/1/08366f6743a44e8695aec2f4f636a687_opt.jpg"
     },
     {
       "id": "POS0",
       "title": "Antique Pocket Watch",
       "description": "19th-century pocket watch made of brass, fully functional with intricate engravings.",
-      "startingPrice": 8122000,
+      "startingPrice": 8128000,
       "startDate": "2024-10-14",
       "endDate": "2024-10-22",
       "condition": "Used",
       "category": "Collectibles",
       "status": "active",
       "userId": "9f25",
-      "image": "https://media.gettyimages.com/id/1180869005/photo/two-old-pocket-watches-inside-a-box-still-life.jpg?s=612x612&w=0&k=20&c=EET6iEmyurLVs_wLc0OrqgjxcZ_9Ljk9cblRutoqKOU=",
-      "seller": "Tanboy Speed"
+      "image": "https://media.gettyimages.com/id/1180869005/photo/two-old-pocket-watches-inside-a-box-still-life.jpg?s=612x612&w=0&k=20&c=EET6iEmyurLVs_wLc0OrqgjxcZ_9Ljk9cblRutoqKOU="
     },
     {
       "id": "KLF3",
@@ -400,6 +401,19 @@
       "status": "active",
       "userId": "1025",
       "image": "https://m.media-amazon.com/images/I/710gR4o6ETL.jpg"
+    },
+    {
+      "id": "O5P6",
+      "title": "Solitaire Diamond Ring",
+      "description": "Ring with a large diamond, ideal for engagement or wedding.",
+      "startingPrice": 500000,
+      "startDate": "2024-10-08",
+      "endDate": "2024-10-17",
+      "condition": "New",
+      "category": "Jewelry & Watches",
+      "status": "active",
+      "userId": "1025",
+      "image": "https://masinadiamonds.com/cdn/shop/articles/IMG_8139_4.jpg?v=1706735366"
     }
   ],
   "bids": [
@@ -535,6 +549,48 @@
       "title": "RC Drone DJI Phantom 4",
       "userId": "1025",
       "bidDate": "2024-10-03"
+    },
+    {
+      "id": "POS0",
+      "bidAmount": 8123000,
+      "title": "Antique Pocket Watch",
+      "userId": "1025",
+      "bidDate": "2024-10-10"
+    },
+    {
+      "id": "POS0",
+      "bidAmount": 8124000,
+      "title": "Antique Pocket Watch",
+      "userId": "1025",
+      "bidDate": "2024-10-10"
+    },
+    {
+      "id": "POS0",
+      "bidAmount": 8126000,
+      "title": "Antique Pocket Watch",
+      "userId": "1025",
+      "bidDate": "2024-10-10"
+    },
+    {
+      "id": "POS0",
+      "bidAmount": 8127000,
+      "title": "Antique Pocket Watch",
+      "userId": "1025",
+      "bidDate": "2024-10-10"
+    },
+    {
+      "id": "POS0",
+      "bidAmount": 8128000,
+      "title": "Antique Pocket Watch",
+      "userId": "1025",
+      "bidDate": "2024-10-10"
+    },
+    {
+      "id": "E5F6",
+      "bidAmount": 1300000,
+      "title": "Gucci Marmont Bag",
+      "userId": "1025",
+      "bidDate": "2024-10-10"
     }
   ],
   "bills": [

@@ -134,6 +134,7 @@ AddWatchlist.propTypes = {
   watch: PropTypes.object.isRequired,
 };
 
+//perlu diperbaiki
 const AuctionCountdown = ({ product }) => {
   const [countdown, setCountdown] = useState("");
   const startDate = product.startDate;
@@ -329,7 +330,6 @@ const Product = () => {
     resolver: zodResolver(addBidSchema),
   });
 
-  //willbeedit
   const bidAmount = Number(form.getValues("bidAmount"));
 
   //glitch? dont comment this!
@@ -477,11 +477,6 @@ const Product = () => {
     }
   };
 
-  useEffect(() => {
-    getProduct();
-    getUser();
-  }, []);
-
   return (
     <div className="flex flex-col">
       <ToastContainer />
@@ -541,15 +536,13 @@ const Product = () => {
                     <AuctionCountdown product={product} />
                   </div>
                   <div className="flex flex-col gap-6 items-end">
-                    <Link to="/categories/list">
-                      <p className="font-bold">{product.condition}</p>
-                      <button
-                        className="bg-gray-300 hover:bg-gray-400 text-gray-700 font-semibold py-1 px-1 rounded text-xs transition duration-200"
-                        id="ProductCategory"
-                      >
-                        {product.category}
-                      </button>
+                    <Link
+                      to={`/categories/list`}
+                      className="bg-gray-300 hover:bg-gray-400 text-gray-700 font-semibold py-1 px-1 rounded text-xs transition duration-200"
+                    >
+                      {product.category}
                     </Link>
+                    <p>{product.condition}</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-2 mb-3 mt-8 ">
@@ -651,7 +644,7 @@ const Product = () => {
                     </p>
                     <AuctionCountdown product={product} />
                   </div>
-                  <div className="flex flex-col gap-4 items-end bg-gradient-to-r from-transparent to-yellow-100 rounded">
+                  <div className="flex flex-col gap-4 items-end">
                     <Link
                       to={`/categories/list`}
                       className="bg-gray-300 hover:bg-gray-400 text-gray-700 font-semibold py-1 px-1 rounded text-xs transition duration-200"
